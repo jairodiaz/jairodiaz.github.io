@@ -1,3 +1,67 @@
-.bg-orange{
+@font-face {
+    font-family: norwester;
+    src: url(https://cdn2.hubspot.net/hubfs/617807/codescrum-assets/fonts/norwester/norwester.otf)
+}
+
+@font-face {
+    font-family: codescrum Logo;
+    src: url('https://cdn2.hubspot.net/hubfs/617807/codescrum-assets/fonts/grapple/codescrum-logo-font(grapple).ttf')
+}
+
+.bg-primary{
+  color: white;
   background: #F05F40;
+}
+.bg-secondary{
+  background: #e8ebee;
+}
+
+.cl-black{
+  color: black;
+}
+.cl-primary{
+  color: #F05F40;
+}
+.cl-white{
+  color: white;
+}
+.cl-faded{
+  color: rgba(255,255,255,.7);
+}
+
+
+.freelancer-about .t-item{
+  background: rgba(0,0,0,0.7);
+}
+.freelancer-about .t-item .t-info .t-name,
+.freelancer-about .t-item .t-info .social-links li a {
+  color: white;
+}
+.freelancer-about .t-item .t-info .t-role {
+  color: rgba(255,255,255,.7);
+}
+
+.ft-cards .ft-item span,
+.ft-cards .ft-item a,
+.ft-tabs .tabs-list li a .tab-icon,
+.ft-x .ft-material i {
+  color: #F05F40;
+}
+
+.ft-tabs .tabs-list .active a {
+  border-color: #F05F40;
+}
+
+.norwester{
+  font-family: norwester;
+}
+.codescrum{
+  font-family: codescrum Logo;
+}
+.px-16 {
+  font-size: 16px;
+}
+
+.ft-tabs .tab-content-image img{
+  border-bottom: 5px solid #f05f40;
 }
