@@ -8,6 +8,16 @@
     src: url('https://cdn2.hubspot.net/hubfs/617807/codescrum-assets/fonts/grapple/codescrum-logo-font(grapple).ttf')
 }
 
+.norwester{
+  font-family: norwester;
+}
+.codescrum{
+  font-family: codescrum Logo;
+}
+.px-16 {
+  font-size: 16px;
+}
+
 .bg-primary{
   color: white;
   background: #F05F40;
@@ -17,7 +27,7 @@
 }
 
 .cl-black{
-  color: black;
+  color: #111;
 }
 .cl-primary{
   color: #F05F40;
@@ -34,17 +44,28 @@
   background: rgba(0,0,0,0.7);
 }
 .freelancer-about .t-item .t-info .t-name,
-.freelancer-about .t-item .t-info .social-links li a {
+.freelancer-about .t-item .t-info .social-links li a,
+.testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item .t-icon {
   color: white;
 }
-.freelancer-about .t-item .t-info .t-role {
+.freelancer-about .t-item .t-info .t-role,
+.testimonials-3col .t-item blockquote {
   color: rgba(255,255,255,.7);
 }
 
-.ft-cards .ft-item span,
 .ft-cards .ft-item a,
+.ft-cards .ft-item span,
 .ft-tabs .tabs-list li a .tab-icon,
-.ft-x .ft-material i {
+.ft-x .ft-material i,
+.blog-columns .blog-post .bp-content .post-meta .post-date:hover i,
+.blog-classic .blog-post .bp-content .post-meta .post-date:hover i,
+.blog-columns .blog-post .bp-content .post-meta .post-date:hover span,
+.blog-classic .blog-post .bp-content .post-meta .post-date:hover span,
+.blog-columns .blog-post .bp-content .post-meta .post-comments:hover i,
+.blog-classic .blog-post .bp-content .post-meta .post-comments:hover i,
+.blog-columns .blog-post .bp-content .post-meta .post-comments:hover span,
+.blog-classic .blog-post .bp-content .post-meta .post-comments:hover span {
   color: #F05F40;
 }
 
@@ -52,16 +73,37 @@
   border-color: #F05F40;
 }
 
-.norwester{
-  font-family: norwester;
-}
-.codescrum{
-  font-family: codescrum Logo;
-}
-.px-16 {
-  font-size: 16px;
-}
-
 .ft-tabs .tab-content-image img{
   border-bottom: 5px solid #f05f40;
+}
+
+.ft-hover-item .ft-1 {
+  background: #ccc url(../images/900x580_3.jpg);
+  background-size: 100%;
+  background-position: 50%;
+  -webkit-transition: background-size 0.3s;
+}
+
+.ft-hover-item .ft-2 {
+    background: #ccc url(../images/900x580_2.jpg);
+    background-size: 100%;
+    background-position: 50%;
+    -webkit-transition: background-size 0.3s;
+}
+
+.ft-hover-item .ft-2 .bg-overlay {
+    background: rgba(240, 95, 64, 0.3);
+}
+.ft-hover-item .ft-item.ft-1:hover .bg-overlay {
+    background: rgba(240, 95, 64, 0.8);
+}
+
+.testimonials-3col .t-item {
+  border-top: 5px solid rgba(0,0,0,0.7);
+  box-shadow: 0px 1px 1px #f8f8f8;
+  background: #f05f40;
+}
+
+.testimonials-3col .t-item img {
+  border: 8px solid rgba(255,255,255,.7);
 }
