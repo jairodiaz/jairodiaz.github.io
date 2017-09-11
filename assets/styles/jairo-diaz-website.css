@@ -39,7 +39,9 @@
   color: rgba(255,255,255,.7);
 }
 
-
+.freelancer-hero .hero-content-wrapper .hero-content .hero-subheading {
+  font-size: 1.35em;
+}
 .freelancer-about .t-item{
   background: rgba(0,0,0,0.7);
 }
