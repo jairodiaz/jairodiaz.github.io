@@ -111,3 +111,7 @@
 .freelancer-hero .hero-content-wrapper {
   background: url(../images/raster@2x.png);
 }
+
+.scroller {
+  color: rgba(240, 95, 64, 0.8);
+}
