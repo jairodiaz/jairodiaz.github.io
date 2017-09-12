@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
 @font-face {
     font-family: norwester;
     src: url(https://cdn2.hubspot.net/hubfs/617807/codescrum-assets/fonts/norwester/norwester.otf)
@@ -7,7 +9,12 @@
     font-family: codescrum Logo;
     src: url('https://cdn2.hubspot.net/hubfs/617807/codescrum-assets/fonts/grapple/codescrum-logo-font(grapple).ttf')
 }
-
+.signature{
+  font-family: 'Sacramento', cursive;
+  transform: rotate(-5deg);
+  font-size: 5em;
+  margin-top: 60px;
+}
 .norwester{
   font-family: norwester;
 }
@@ -37,6 +44,10 @@
 }
 .cl-faded{
   color: rgba(255,255,255,.7);
+}
+
+.freelancer-hero{
+  background: url(../images/1415x915_1.jpg);
 }
 
 .freelancer-hero .hero-content-wrapper .hero-content .hero-subheading {
@@ -116,4 +127,18 @@
 
 .scroller {
   color: rgba(240, 95, 64, 0.8);
+}
+
+p > a.p-link{
+  color: #f05f40 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  display: inline !important;
+  text-align: start !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+p > a.p-link:hover{
+  color: #111 !important;
+  border: none !important;
 }
