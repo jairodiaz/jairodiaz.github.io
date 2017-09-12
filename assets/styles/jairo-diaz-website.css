@@ -24,6 +24,9 @@
 .px-16 {
   font-size: 16px;
 }
+h4{
+  letter-spacing: 2px;
+}
 
 .bg-primary{
   color: white;
@@ -33,7 +36,8 @@
   background: #e8ebee;
 }
 
-.cl-black{
+.cl-black,
+.readmore-link:hover {
   color: #111;
 }
 .cl-primary{
@@ -82,10 +86,13 @@
 .blog-classic .blog-post .bp-content .post-meta .post-comments:hover span,
 .testimonials-3col .t-item .t-icon,
 .testimonials-3col .t-item blockquote footer cite,
-.testimonials-3col .t-item blockquote p + [data-readmore-toggle] {
+.readmore-link{
   color: #F05F40;
 }
 
+.ft-cards .ft-item {
+  min-height: 435px;
+}
 .ft-tabs .tabs-list .active a {
   border-color: #F05F40;
 }
@@ -125,9 +132,10 @@
 .testimonials-3col .t-item blockquote p:after {
   border-bottom: 1px solid rgba(240, 95, 64, 0.5);
 }
-.testimonials-3col .t-item blockquote p + [data-readmore-toggle] {
+.readmore-link {
   position: relative;
   top: 10px;
+  cursor: pointer;
 }
 .testimonials-3col .t-item blockquote footer cite span {
   font-size: 0.9em;
@@ -142,8 +150,8 @@
   color: rgba(240, 95, 64, 0.8);
 }
 
-p > a.p-link{
-  color: #f05f40 !important;
+a.p-link{
+  color: #777 !important;
   padding: 0 !important;
   font-size: 14px !important;
   display: inline !important;
@@ -151,7 +159,7 @@ p > a.p-link{
   text-transform: none !important;
   letter-spacing: normal !important;
 }
-p > a.p-link:hover{
+a.p-link:hover{
   color: #111 !important;
   border: none !important;
 }
