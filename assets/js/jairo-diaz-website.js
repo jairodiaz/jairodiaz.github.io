@@ -3,6 +3,8 @@ $(document).ready(function(){
      blur: 0
   })
 
-  $('.testimonials-3col .t-item blockquote p').readmore();
+  $('.testimonials-3col .t-item blockquote p').readmore({
+    collapsedHeight: 130
+  });
 
 });

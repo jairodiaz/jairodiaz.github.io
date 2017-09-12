@@ -56,17 +56,15 @@
 .freelancer-hero .hero-content-wrapper .hero-content .hero-subheading {
   font-size: 1.35em;
 }
+
 .freelancer-about .t-item{
   background: rgba(0,0,0,0.7);
 }
 .freelancer-about .t-item .t-info .t-name,
-.freelancer-about .t-item .t-info .social-links li a,
-.testimonials-3col .t-item blockquote footer cite,
-.testimonials-3col .t-item .t-icon {
+.freelancer-about .t-item .t-info .social-links li a {
   color: white;
 }
-.freelancer-about .t-item .t-info .t-role,
-.testimonials-3col .t-item blockquote {
+.freelancer-about .t-item .t-info .t-role {
   color: rgba(255,255,255,.7);
 }
 
@@ -81,7 +79,10 @@
 .blog-columns .blog-post .bp-content .post-meta .post-comments:hover i,
 .blog-classic .blog-post .bp-content .post-meta .post-comments:hover i,
 .blog-columns .blog-post .bp-content .post-meta .post-comments:hover span,
-.blog-classic .blog-post .bp-content .post-meta .post-comments:hover span {
+.blog-classic .blog-post .bp-content .post-meta .post-comments:hover span,
+.testimonials-3col .t-item .t-icon,
+.testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote p + [data-readmore-toggle] {
   color: #F05F40;
 }
 
@@ -115,13 +116,22 @@
 }
 
 .testimonials-3col .t-item {
-  border-top: 5px solid rgba(0,0,0,0.7);
-  box-shadow: 0px 1px 1px #f8f8f8;
-  background: #f05f40;
+  min-height: 520px;
+  border-top: 5px solid #f05f40;
 }
-
-.testimonials-3col .t-item img {
-  border: 8px solid rgba(255,255,255,.7);
+.testimonials-3col .t-item blockquote p:before {
+  border-top: 1px solid rgba(240, 95, 64, 0.5);
+}
+.testimonials-3col .t-item blockquote p:after {
+  border-bottom: 1px solid rgba(240, 95, 64, 0.5);
+}
+.testimonials-3col .t-item blockquote p + [data-readmore-toggle] {
+  position: relative;
+  top: 10px;
+}
+.testimonials-3col .t-item blockquote footer cite span {
+  font-size: 0.9em;
+  letter-spacing: 1px;
 }
 
 .freelancer-hero .hero-content-wrapper {
