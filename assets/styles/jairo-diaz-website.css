@@ -48,6 +48,9 @@
 
 .freelancer-hero{
   background: url(../images/1415x915_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .freelancer-hero .hero-content-wrapper .hero-content .hero-subheading {
@@ -141,4 +144,14 @@ p > a.p-link{
 p > a.p-link:hover{
   color: #111 !important;
   border: none !important;
+}
+
+.ft-tabs .tab-content .tab-content-text a {
+  margin-top: 45px;
+}
+a.bg-primary:hover,
+a.bg-primary:focus,
+a.bg-primary:visited{
+  background: #f05f40;
+  color: white;
 }
