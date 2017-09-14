@@ -174,3 +174,9 @@ a.bg-primary:visited{
   background: #f05f40;
   color: white;
 }
+
+.sec-heading .subheading {
+  color: #494949;
+  text-transform: none;
+  letter-spacing: 1.5px;
+}
