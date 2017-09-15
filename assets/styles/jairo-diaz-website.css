@@ -197,3 +197,6 @@ a.bg-primary:visited{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+#services-tabs.ft-tabs .tab-content .tab-content-text p {
+  margin-bottom: 10px;
+}
