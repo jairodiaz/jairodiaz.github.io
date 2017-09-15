@@ -180,3 +180,20 @@ a.bg-primary:visited{
   text-transform: none;
   letter-spacing: 1.5px;
 }
+#services-tabs.ft-tabs {
+  background: #f4f4f4;
+}
+#services-tabs.ft-tabs .tabs-list {
+  background: white;
+}
+#services-tabs.ft-tabs .sec-heading {
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+#services-tabs.ft-tabs .tab-content{
+  height: auto;
+}
+#services-tabs.ft-tabs .tab-content .tab-content-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
