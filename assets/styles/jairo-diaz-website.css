@@ -62,8 +62,11 @@ h4{
   font-size: 1.35em;
 }
 
-.freelancer-about .t-item{
+/* .freelancer-about .t-item{
   background: rgba(0,0,0,0.7);
+} */
+.freelancer-about .t-item .t-info{
+  border-bottom: 5px solid rgba(0,0,0,0.7); 
 }
 .freelancer-about .t-item .t-info .t-name,
 .freelancer-about .t-item .t-info .social-links li a {
@@ -71,6 +74,8 @@ h4{
 }
 .freelancer-about .t-item .t-info .t-role {
   color: rgba(255,255,255,.7);
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 .ft-cards .ft-item a,
@@ -186,6 +191,11 @@ a.bg-primary:visited{
 #services-tabs.ft-tabs .tabs-list {
   background: white;
 }
+#services-tabs.ft-tabs .tabs-list li a {
+  display: flex;
+  align-items: center;
+  padding: 40px 50px;
+}
 #services-tabs.ft-tabs .sec-heading {
   padding: 50px 0;
   margin-bottom: 0;
@@ -199,4 +209,20 @@ a.bg-primary:visited{
 }
 #services-tabs.ft-tabs .tab-content .tab-content-text p {
   margin-bottom: 10px;
+}
+
+.circles-counters{
+  background: #ccc url(../images/2440x1578_1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.freelancer-hero .hero-content-wrapper .hero-content .hero-lead {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.fs-video-hero .hero-content-wrapper .hero-content .hero-subheading {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

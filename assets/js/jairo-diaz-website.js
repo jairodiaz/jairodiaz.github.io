@@ -17,13 +17,13 @@ $(document).ready(function(){
 
 
   $('#services-tabs .tab-content .tab-description').readmore({
-    collapsedHeight: 250,
+    collapsedHeight: 450,
     lessLink: '<small class="readmore-link">Close</small>',
     moreLink: '<small class="readmore-link">Read more...</small>'
   });
   $(document).on( 'shown.bs.tab', 'a[data-toggle=\'tab\']', function (e) {
     $('#services-tabs .tab-content .tab-description').readmore({
-      collapsedHeight: 250,
+      collapsedHeight: 450,
       lessLink: '<small class="readmore-link">Close</small>',
       moreLink: '<small class="readmore-link">Read more...</small>'
     });
