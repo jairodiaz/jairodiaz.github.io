@@ -226,3 +226,13 @@ a.bg-primary:visited{
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
+.pt-plax-lg-light,
+.pt-plax-lg-dark {
+  background: url(../images/2440x1280_3.jpeg);
+  background-size: cover;
+}
+
+#event-img-slider .slick-slide {
+  max-height: 470px;
+}

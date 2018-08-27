@@ -27,6 +27,7 @@ $(document).ready(function(){
       lessLink: '<small class="readmore-link">Close</small>',
       moreLink: '<small class="readmore-link">Read more...</small>'
     });
+    new WOW().init();
   })
 
 
@@ -39,5 +40,5 @@ $(document).ready(function(){
   $('.ft-cards .ft-item a[data-tab="tab3"]').click(function (e) {
     $('.ft-tabs a[href="#tab3"]').tab('show');
   })
-
+  console.info('Executed Script!');
 });
