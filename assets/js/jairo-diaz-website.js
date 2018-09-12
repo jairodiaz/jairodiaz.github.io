@@ -15,21 +15,21 @@ $(document).ready(function(){
     moreLink: '<small class="readmore-link">Read more...</small>'
   });
 
-
   $('#services-tabs .tab-content .tab-description').readmore({
     collapsedHeight: 450,
     lessLink: '<small class="readmore-link">Close</small>',
     moreLink: '<small class="readmore-link">Read more...</small>'
   });
+
   $(document).on( 'shown.bs.tab', 'a[data-toggle=\'tab\']', function (e) {
     $('#services-tabs .tab-content .tab-description').readmore({
       collapsedHeight: 450,
       lessLink: '<small class="readmore-link">Close</small>',
       moreLink: '<small class="readmore-link">Read more...</small>'
     });
+    console.log('Readmore created inside tab.');
     new WOW().init();
   })
-
 
   $('.ft-cards .ft-item a[data-tab="tab1"]').click(function (e) {
     $('.ft-tabs a[href="#tab1"]').tab('show');
